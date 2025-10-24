@@ -836,8 +836,56 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     font-size: 14px; }
   .testimonial-v1 .caption {
     font-size: 13px; }
-  .testimonial-v1:hover {
-    border-color: #0389ff; }
+.testimonial-v1:hover {
+  border-color: #0389ff; }
+
+.project-list .project-item {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+.project-list .project-item:last-child {
+  margin-bottom: 0;
+}
+
+.project-thumb {
+  flex-shrink: 0;
+  width: 240px;
+}
+
+.project-thumb img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.project-item .testimonial-v1 {
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+
+.project-item blockquote {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .project-thumb {
+    margin-right: 2.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .project-thumb {
+    width: 100%;
+  }
+
+  .project-item .testimonial-v1 {
+    text-align: center;
+  }
+}
 
 .owl-3-slider .owl-nav, .single-slider .owl-nav {
   position: absolute;
